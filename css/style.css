@@ -1,0 +1,416 @@
+body{
+
+}
+
+@media(min-width:768px){
+
+#dropmega{
+
+  margin-top: 20px;
+
+}
+
+header{
+      position:fixed;
+      z-index: 999;
+  width: 100%;
+  transition: 0.6s;
+  padding: 25px 0px;
+  
+    }
+
+    header.sticky{
+      background-color: #000;
+      padding: 10px 0px;
+    }
+    
+
+    #search-box {
+
+
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#login{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+ }
+
+
+ #renav{
+    width: auto;	
+
+    }
+
+@media(max-width:1000px){
+#deposer{
+	display: none;
+}
+}
+
+ @media(max-width:767px){
+
+ 	#deposer{
+	display: inline-block;
+}
+
+header{
+      background-color: #000;
+  
+      
+ }
+
+
+
+ #search-box{
+ 	margin-top:6px ;
+ }  
+
+ #login{
+	margin-bottom: 10px;
+	margin-top: 10px;}
+
+#deposer{
+	margin-top: 10px;
+	
+} 	
+} 
+ 
+
+
+
+
+ .fff{
+ 	height: 400vh;
+ 	width: 100%;
+  
+ 	
+ }
+
+
+#droptog{
+	font-size: 19px;
+}
+
+#deposer{
+	width: 181px;
+	
+	
+} 
+
+#nav-link{
+
+}
+
+#dropmega{
+
+  background-color: rgba(213,221,222, 0.8);
+
+}
+
+#divbouton{
+   
+}
+
+#btnhero{
+  width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 50vh;
+  background: url("https://brightlineit.com/wp-content/uploads/2017/03/170309-update-hardware.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero .container {
+  padding-top: 80px;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+  #hero .container {
+    padding-top: 60px;
+  }
+  #hero h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.get_in_touch{
+  background-color: red;
+  max-width: 800px;
+  margin:auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+  padding: 0px;
+}
+
+.contact-form .form-field{
+  position: relative;
+  margin:32px 0;
+}
+
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #e03a3c;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+/*--------------------------------------------------------------
+# search-box
+--------------------------------------------------------------*/
+
+#search-box {
+
+position: relative;
+width: 100%;
+
+}
+
+#search-form 
+{
+
+height: 50px;
+border: 1px solid #999;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+background-color: #fff;
+overflow: hidden;
+}
+
+#search-text 
+{
+
+font-size: 14px;
+color: #ddd;
+border-width: 0;
+background: transparent;
+}
+
+#search-box input[type="text"]
+{
+width: 90%;
+padding: 12px 0 12px 1em;
+color: #333;
+outline: none;
+}
+
+#search-button {
+position: absolute;
+top: 0;
+right: 0;
+height: 50px;
+width: 60px;
+font-size: 14px;
+color: grey;
+text-align: center;
+line-height: 42px;
+border-width: 0;
+background-color: transparent;
+-webkit-border-radius: 0px 25px 25px 0px;
+-moz-border-radius: 0px 25px 25px 0px;
+border-radius: 0px 25px 25px 0px;
+cursor: pointer;
+}
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+    background: rgba(26, 70, 104);
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+    .clients, .fff, .annoncerecentes{
+        position: relative;
+        top: -114px;
+        
+    }
+
+}
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# annoncerecentes
+--------------------------------------------------------------*/
+
+.titreannonces{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #e03a3c;
+}
+
+.annoncerecentes{ 
+  margin-top: 30px;
+}
+
+#annoncere{
+  height: 40vh;
+  margin-bottom: 10px;
+}
+
+.imgannonce{
+  width: 100%;
+  height: 65%;
+}
+
+.imgannonce img{
+  width: 100%;
+  height: 100%;
+}
+
+.infoannonce{
+  background-color: rgba(213,221,222, 0.8);
+  width: 100%;
+  height: 35%;
+  
+}
+
+.prixinfo{
+  width: 100%;
+  height: 33%;
+  padding: 0
+}
+
+.infolieu{
+  margin-left: 5px;
+  float: left;
+}
+
+.infoprix{
+  position: relative;
+  float: right;
+  top: -30vh;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.nominfo{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  height: 33%;
+  padding: 0;
+}
+
+.nominfo h5{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.btninfo{
+  width: 100%;
+  height: 34%;
+  padding: 0;
+}
+
+#btndetail{
+  float: right;
+  margin-right: 5px;
+}
+
+@media (max-width: 575px){
+  #annoncere{
+    height: 50vh;
+  }
+
+  .imgannonce{
+  width: 100%;
+  height: 65%;
+  }
+
+  .infoannonce{
+  width: 100%;
+  height: 35%;
+  }
+
+  .infoprix{
+  position: relative;
+  top: -35vh;
+
+}
